@@ -1,0 +1,46 @@
+$colorPrimary: #FFFFFF;
+$backgroundColor: #000000;
+$backgroundColorSecondary: #222222;
+$colorActive: #8DFD1B;
+$colorSecondary: rgb(168, 168, 168);
+$bgCard: rgb(34, 34, 34);
+$bg-footer: #42006A;
+
+$FontsPrimary: "DM Mono", monospace;
+$FontsSEcondary: "Inter", sans-serif;
+$FontsDecoration: "Audiowide", sans-serif;
+
+$f-w-400: 400;
+
+$f-s-28: 28px;
+$f-s-16: 16px;
+$f-s-title: 51px;
+$f-s-21: 21px;
+$f-s-38: 38px;
+$f-s-15: 15px;
+$f-s-79: 79px;
+$f-s-8: 8px;
+$f-s-11: 11px;
+$f-s-12: 12px;
+$f-s-13:13px;
+$f-s-14: 14px;
+
+$m-b-adaptive:10vh;
+$m-b-adaptive-2:5vh;
+
+@mixin LetTextTracform() {
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+@mixin flexboxMixin() {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flexbox-align() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

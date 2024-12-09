@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/error404.css">
+    <title>error404</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Mono&family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-flex">
+
+                <div class="header-Group header-Group_flex">
+                    <a class="logo" href="./Project.html"><img class="logo__image" src="image/logoMeta.png"></a>
+                    <ul class="nav nav_flex">
+                        <li class="nav__iten" href="./Project.html">Wave NFTs</li>
+                        <li class="nav__iten" href="./Project.html">Stories</li>
+                        <li class="nav__iten" href="./Project.html">Contact</li>
+                    </ul>
+                </div>
+                <div class="icon-container icon-container_flex">
+                    <a class="block-icon" href="https://x.com/?lang=ru">
+                        <img class="block-icon__icon" src="./image/icon/TwitterIcon.png"></img>
+                    </a>
+                    <a class="block-icon" href="https://discord.com/">
+                        <img class="block-icon__icon" src="./image/icon/DiscordIcon.png"></img>
+                    </a>
+                    <a class="block-icon" href="https://www.youtube.com/">
+                        <img class="block-icon__icon" src="./image/icon/YouTubeIcon.png"></img>
+                    </a>
+                    <a class="block-icon" href="https://web.telegram.org/a/">
+                        <img class="block-icon__icon" src="./image/icon/TelegramIcon.png"></img>
+                    </a>
+                </div>
+
+                <div class="buger-block" onclick="clickBurger()" id="burgerBlock">
+
+                    <span class="buger-block__line"></span>
+                    <span class="buger-block__line"></span>
+                    <span class="buger-block__line"></span>
+                </div>
+                <div class="burger-menu" id="burgerMenu">
+
+                    <div class="burger-content">
+                        <ul class="nav nav_flex">
+                            <li class="nav__iten"><a class="nav__iten-link" href="#id1">NFTs Wave</a></li>
+                            <li class="nav__iten"><a class="nav__iten-link" href="#id2">Stories</a></li>
+                            <li class="nav__iten"><a class="nav__iten-link" href="#id3">Contact</a></li>
+                        </ul>
+
+                        <button class="close-btn" onclick="clickBurger()">Close</button>
+
+                    </div>
+                    <div class="burger-container">
+                        <a class="block-icon" href="https://x.com/?lang=ru" target="_blank">
+                            <img class="block-icon__icon" src="./image/icon/TwitterIcon.png"></img>
+                        </a>
+                        <a class="block-icon" href="https://discord.com/" target="_blank">
+                            <img class="block-icon__icon" src="./image/icon/DiscordIcon.png"></img>
+                        </a>
+                        <a class="block-icon" href="https://www.youtube.com/" target="_blank">
+                            <img class="block-icon__icon" src="./image/icon/YouTubeIcon.png"></img>
+                        </a>
+                        <a class="block-icon" href="https://web.telegram.org/a/" target="_blank">
+                            <img class="block-icon__icon" src="./image/icon/TelegramIcon.png"></img>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="OnePage-section">
+
+        <div class="container">
+            <div class="flex">
+                <div class="Left-block">
+                    <h1 class="Left-block__Title">ERROR 404</h1>
+                    <div class="Left-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius
+                        enim
+                        in eros elementum tristique.</div>
+                    <button class="button" onclick="window.location.href='./Project.html'"><span class="button_text">return to main page</span></button>
+                </div>
+                <div class="Right-block">
+                    <img class="Right-block__image" src="image/OnePagePhoto.png" alt="WAVE photo"><img>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<script src="./js/script.js"></script>
+</body>
+
+</html>
